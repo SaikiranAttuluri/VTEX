@@ -1,0 +1,108 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout",
+      "rich-text#productsde",
+      "list-context.product-list"
+    ]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "search-layout-switcher",
+      "flex-layout.row#result"
+      // "filter-navigator.v3",
+      // "search-content",
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#result": {
+    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+    "props": {
+      "horizontalAlignment": "center",
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.col#filter": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "width": "35%",
+      "marginLeft": 10,
+      "marginRight": 4
+    }
+  },
+  "filter-navigator.v3": {
+    "props": {
+      "initiallyCollapsed": true
+    }
+  },
+  "flex-layout.col#content": {
+    "children": [
+      "total-products.v2",
+      "search-products-count-per-page",
+      "order-by.v2",
+      "gallery-layout-switcher",
+      "flex-layout.row#products",
+      "search-fetch-previous",
+      "search-fetch-more"
+    ],
+    "props": {
+      "width": "grow",
+      "marginRight": 10
+    }
+  },
+  "flex-layout.row#products": {
+    "children": ["search-content"]
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout"]
+  },
+  "rich-text#productsde": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **Productos que podrían interesarte**",
+      "font": "t-heading-1"
+    }
+  },
+  "slider-layout": {
+    "props": {
+      "marginLeft": 10,
+      "marginRight": 10
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "modal-trigger#quickview",
+      "product-images",
+      "product-summary-name",
+      "product-selling-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "marginLeft": 10,
+      "marginRight": 10
+    }
+  },
+  "modal-trigger#quickview": {
+    "children": ["modal-layout#quickview"]
+  },
+  "modal-layout#quickview": {
+    "children": [
+      "product-summary-name",
+      "product-summary-sku-selector",
+      "product-summary-quantity"
+    ]
+  }
+}

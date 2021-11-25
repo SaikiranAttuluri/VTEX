@@ -1,0 +1,138 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#CreditServices",
+      "menu-item#shop",
+      "menu-item#storefinder",
+      "menu-item#GiftCards",
+      "menu-item#ForthePro"
+    ]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": "null",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Buscador de tiendas"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "top-name"
+    }
+  },
+  "menu-item#storefinder": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Store Finder",
+        "text": "Folleto"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "top-name"
+    }
+  },
+  "menu-item#GiftCards": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Profesionales"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "top-name"
+    }
+  },
+  "menu-item#ForthePro": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Truck & Tool Rental",
+        "text": "Ayuda"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "top-name"
+    }
+  },
+  "menu-item#CreditServices": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Gift Cards",
+        "text": "Covid-19"
+      },
+      "blockClass": "top-name"
+    }
+  },
+
+  "vtex.menu@2.x:menu#institutional": {
+    "children": ["menu-item#vtex-website"]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "visit vtex.com"
+      }
+    }
+  }
+}

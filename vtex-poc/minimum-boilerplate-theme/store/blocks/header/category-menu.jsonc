@@ -1,0 +1,426 @@
+{
+  "vtex.menu@2.x:menu#MegaMenu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#Departamentos",
+      "menu-item#Promociones y eventos",
+      "menu-item#Ideas y espacios",
+      "menu-item#Servicios"
+    ]
+  },
+  "menu-item#Departamentos": {
+    "props": {
+      "id": "Departamentos",
+      "type": "custom",
+      "iconId": "caret",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics",
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Departamentos"]
+  },
+  "vtex.menu@2.x:submenu#Departamentos": {
+    "props": {
+      "width": "auto",
+      "blockClass": "submenuclsele",
+      "background-color": "#F96302"
+    },
+    "children": ["vtex.menu@2.x:menu#Departamentos"]
+  },
+  "vtex.menu@2.x:menu#Departamentos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Baños",
+      "menu-item#Decoración",
+      "menu-item#Eléctrico",
+      "menu-item#Ferretería",
+      "menu-item#Herramientas",
+      "menu-item#Iluminación",
+      "menu-item#Jardín",
+      "menu-item#Limpieza",
+      "menu-item#Materiales de Construcción",
+      "menu-item#Pinturas",
+      "menu-item#Pisos",
+      "menu-item#Plomería",
+      "menu-item#Seguridad",
+      "menu-item#Puertas y Ventanas",
+      "menu-item#Línea blanca y Cocinas",
+      "menu-item#Ventilación y Calefacción"
+    ]
+  },
+  "menu-item#Baños": {
+    "props": {
+      "id": "menu-item-Baños",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics",
+        "noFollow": false,
+        "tagTitle": "Computers",
+        "text": "Baños",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Decoración": {
+    "props": {
+      "id": "menu-item-Decoración",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/computers",
+        "noFollow": false,
+        "tagTitle": "Decoración",
+        "text": "Decoración",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Eléctrico": {
+    "props": {
+      "id": "menu-item-Eléctrico",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Eléctrico",
+        "text": "Eléctrico",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Ferretería": {
+    "props": {
+      "id": "menu-item-Ferretería",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Ferretería",
+        "text": "Ferretería",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Herramientas": {
+    "props": {
+      "id": "menu-item-Herramientas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Herramientas",
+        "text": "Herramientas",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Iluminación": {
+    "props": {
+      "id": "menu-item-Iluminación",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Iluminación",
+        "text": "Iluminación",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Jardín": {
+    "props": {
+      "id": "menu-item-Jardín",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Jardín",
+        "text": "Jardín",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Limpieza": {
+    "props": {
+      "id": "menu-item-Limpieza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Limpieza",
+        "text": "Limpieza",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Materiales de Construcción": {
+    "props": {
+      "id": "menu-item-Materiales de Construcción",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Materiales",
+        "text": "Materiales de Construcción",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Pinturas": {
+    "props": {
+      "id": "menu-item-Pinturas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Pinturas",
+        "text": "Pinturas",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Pisos": {
+    "props": {
+      "id": "menu-item-Pisos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Pisos",
+        "text": "Pisos",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Plomería": {
+    "props": {
+      "id": "menu-item-Plomería",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Plomería",
+        "text": "Plomería",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Seguridad": {
+    "props": {
+      "id": "menu-item-Seguridad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Seguridad",
+        "text": "Seguridad",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Puertas y Ventanas": {
+    "props": {
+      "id": "menu-item-Puertas y Ventanas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Puertas",
+        "text": "Puertas y Ventanas",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Línea blanca y Cocinas": {
+    "props": {
+      "id": "menu-item-Línea blanca y Cocinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Línea",
+        "text": "Línea blanca y Cocinas",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#Ventilación y Calefacción": {
+    "props": {
+      "id": "menu-item-Ventilación y Calefacción",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Ventilación",
+        "text": "Ventilación y Calefacción",
+        "highlight": true
+      }
+    }
+  },
+
+  "menu-item#Promociones y eventos": {
+    "props": {
+      "id": "menu-item-Promociones y eventos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Promociones y eventos",
+        "text": "Promociones y eventos"
+      }
+    }
+  },
+  "menu-item#Ideas y espacios": {
+    "props": {
+      "id": "menu-item-Ideas y espacios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Ideas y espacios",
+        "text": "Ideas y espacios"
+      }
+    }
+  },
+  "menu-item#Servicios": {
+    "props": {
+      "id": "menu-item-Servicios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Servicios",
+        "text": "Servicios"
+      }
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#podemos",
+      "vtex.menu@2.x:menu#recomendados",
+      "vtex.menu@2.x:menu#HomeDepot",
+      "vtex.menu@2.x:menu#Suscríbete"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["flex-layout.col#footer-2nd-desktop"],
+    "props": {
+      "blockClass": "footer-row",
+      "paddingTop": 25,
+      "paddingBottom": 20
+    }
+  },
+  "flex-layout.col#footer-2nd-desktop": {
+    "children": ["rich-text#footertxt"],
+    "props": {
+      "blockClass": "footer-menu"
+    }
+  },
+  "rich-text#footertxt": {
+    "props": {
+      "text": "© 2021 Homer TLC. Inc. Todos los derechos reservados. Aviso de privacidad. Políticas de devolución. El uso de este sitio está sujeto a ciertos términos de uso que requieren un acuerdo legal<br>entre Usted y Home Depot México, S. de R.L. de C.V.",
+      "textPosition": "CENTER",
+      "textAlignment": "left"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#mid-footer"]
+  },
+  "flex-layout.row#mid-footer": {
+    "props": {
+      "blockClass": "footer-row"
+    },
+    "children": ["flex-layout.col#colFoot"]
+  },
+  "flex-layout.col#colFoot": {
+    "children": []
+  }
+}

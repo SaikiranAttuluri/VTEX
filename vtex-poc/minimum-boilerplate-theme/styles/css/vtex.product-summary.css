@@ -1,0 +1,12 @@
+.productImageTag--main {
+  height: 300px;
+}
+.element {
+  margin-left: 25px;
+}
+.buyButton {
+  background-color: papayawhip;
+}
+.buyButtonText {
+  font-size: medium;
+}

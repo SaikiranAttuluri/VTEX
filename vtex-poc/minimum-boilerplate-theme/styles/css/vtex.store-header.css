@@ -1,0 +1,8 @@
+.headerRowContentContainer {
+  position: relative;
+  margin: 0 auto;
+  padding: 5px 1vw;
+  height: 80px;
+  width: 98vw;
+  max-width: 1200px;
+}

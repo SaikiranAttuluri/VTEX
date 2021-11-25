@@ -1,0 +1,548 @@
+{
+  "vtex.menu@2.x:menu#podemos": {
+    "children": ["menu-item#¿Cómo podemos ayudarte?"]
+  },
+  "menu-item#¿Cómo podemos ayudarte?": {
+    "props": {
+      "id": "¿Cómo podemos ayudarte?",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Cómo podemos ayudarte?",
+        "text": "¿Cómo podemos ayudarte?"
+      }
+    },
+    "children": ["vtex.menu@2.x:menu#¿Cómo podemos ayudarte?"]
+  },
+  "vtex.menu@2.x:menu#¿Cómo podemos ayudarte?": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Ayuda",
+      "menu-item#Facturación electrónica",
+      "menu-item#Soy proveedor",
+      "menu-item#Cuéntanos ¿cómo te atendimos?",
+      "menu-item#Contáctanos",
+      "menu-item# Compra ahora 800 004 6633"
+    ]
+  },
+  "menu-item#Ayuda": {
+    "props": {
+      "id": "menu-item-Ayuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ayuda",
+        "text": "Ayuda"
+      }
+    }
+  },
+  "menu-item#Facturación electrónica": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Facturación electrónica",
+        "text": "Black Friday"
+      }
+    }
+  },
+  "menu-item#Soy proveedor": {
+    "props": {
+      "id": "menu-item-Soy proveedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Soy proveedor",
+        "text": "Soy proveedor"
+      }
+    }
+  },
+  "menu-item#Cuéntanos ¿cómo te atendimos?": {
+    "props": {
+      "id": "menu-item-Cuéntanos ¿cómo te atendimos?",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cuéntanos ¿cómo te atendimos?",
+        "text": "Cuéntanos ¿cómo te atendimos?"
+      }
+    }
+  },
+  "menu-item#Contáctanos": {
+    "props": {
+      "id": "menu-item-Contáctanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      }
+    }
+  },
+  "menu-item# Compra ahora 800 004 6633": {
+    "props": {
+      "id": "menu-item- Compra ahora 800 004 6633",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": " Compra ahora 800 004 6633",
+        "text": " Compra ahora 800 004 6633"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#HomeDepot": {
+    "children": ["menu-item#HomeDepot"]
+  },
+  "menu-item#HomeDepot": {
+    "props": {
+      "id": "HomeDepot",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "HomeDepot",
+        "text": "The Home Depot"
+      }
+    },
+    "children": ["vtex.menu@2.x:menu#TheHomeDepot"]
+  },
+  "vtex.menu@2.x:menu#TheHomeDepot": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Acerca de nosotros",
+      "menu-item#Noticias",
+      "menu-item#Responsabilidad social",
+      "menu-item#Haz carrera con nosotros",
+      "menu-item#Quiero ser proveedor",
+      "menu-item#Mapa del sitio"
+    ]
+  },
+  "menu-item#Acerca de nosotros": {
+    "props": {
+      "id": "menu-item-Acerca de nosotros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/smartphones",
+        "noFollow": true,
+        "tagTitle": "Acerca de nosotros",
+        "text": "Acerca de nosotros"
+      }
+    }
+  },
+  "menu-item#Noticias": {
+    "props": {
+      "id": "menu-item-Noticias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/videogames",
+        "noFollow": true,
+        "tagTitle": "Noticias",
+        "text": "Noticias"
+      }
+    }
+  },
+  "menu-item#Responsabilidad social": {
+    "props": {
+      "id": "menu-item-Responsabilidad social",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Responsabilidad social",
+        "text": "Responsabilidad social"
+      }
+    }
+  },
+  "menu-item#Haz carrera con nosotros": {
+    "props": {
+      "id": "menu-item-Haz carrera con nosotros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Haz carrera con nosotros",
+        "text": "Haz carrera con nosotros"
+      }
+    }
+  },
+  "menu-item#Quiero ser proveedor": {
+    "props": {
+      "id": "menu-item-Quiero ser proveedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Quiero ser proveedor",
+        "text": "Quiero ser proveedor"
+      }
+    }
+  },
+  "menu-item#Mapa del sitio": {
+    "props": {
+      "id": "menu-item-Mapa del sitio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Mapa del sitio",
+        "text": "Mapa del sitio"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#Suscríbete": {
+    "children": ["menu-item#Suscríbete"]
+  },
+  //   "newsletter-form": {
+  //     "children": ["newsletter-input-name", "newsletter-submit"]
+  //   },
+  "menu-item#Suscríbete": {
+    "props": {
+      "id": "Suscríbete",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Suscríbete",
+        "text": "Suscríbete"
+      }
+    },
+    "children": ["vtex.menu@2.x:menu#social-networks"]
+  },
+  "vtex.menu@2.x:menu#social-networks": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["social-networks"]
+  },
+  "menu-item#bags": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "Bags"
+      }
+    }
+  },
+  "menu-item#backpacks": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Backpacks",
+        "text": "Backpacks"
+      }
+    }
+  },
+  "menu-item#necessaire": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Necessaire"
+      }
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/foo",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Twitter"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "YouTube"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Pinterest"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Instagram"
+        }
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Socio experto",
+      "menu-item#Blog",
+      "menu-item#Club de jardinería",
+      "menu-item#The Home Depot USA",
+      "menu-item#The Home Depot Canadá"
+    ]
+  },
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Noticias",
+      "menu-item#Noticias",
+      "menu-item#Responsabilidad social"
+    ]
+  },
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Acerca de nosotros",
+      "menu-item#Noticias",
+      "menu-item#Responsabilidad social"
+    ]
+  },
+  "vtex.menu@2.x:menu#recomendados": {
+    "children": ["menu-item#Sitios recomendados"]
+  },
+  "menu-item#Sitios recomendados": {
+    "props": {
+      "id": "Sitios recomendados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Sitios recomendados",
+        "text": "Sitios recomendados"
+      }
+    },
+    "children": ["vtex.menu@2.x:menu#Sitios recomendados"]
+  },
+  "vtex.menu@2.x:menu#Sitios recomendados": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Ventas a profesionales",
+      "menu-item#Socio experto",
+      "menu-item#Blog",
+      "menu-item#Club de jardinería",
+      "menu-item#The Home Depot USA",
+      "menu-item#The Home Depot Canadá"
+    ]
+  },
+  "menu-item#Ventas a profesionales": {
+    "props": {
+      "id": "menu-item-category-Ventas a profesionales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Ventas a profesionales",
+        "text": "Ventas a profesionales"
+      }
+    }
+  },
+  "menu-item#Socio experto": {
+    "props": {
+      "id": "menu-item-Socio experto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Socio experto",
+        "text": "Socio experto"
+      }
+    }
+  },
+  "menu-item#Blog": {
+    "props": {
+      "id": "menu-item-Blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#Club de jardinería": {
+    "props": {
+      "id": "menu-item-Club de jardinería",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Club de jardinería",
+        "text": "Club de jardinería"
+      }
+    }
+  },
+  "menu-item#The Home Depot USA": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "The Home Depot USA",
+        "text": "The Home Depot USA"
+      }
+    }
+  },
+  "menu-item#The Home Depot Canadá": {
+    "props": {
+      "id": "menu-item-The Home Depot Canadá",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "The Home Depot Canadá",
+        "text": "The Home Depot Canadá"
+      }
+    }
+  }
+}

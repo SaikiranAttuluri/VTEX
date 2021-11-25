@@ -1,0 +1,11 @@
+.notificationBarInner {
+  background-color: #ff8000;
+}
+.notificationContent {
+  color: white;
+  border: #ff8000;
+  font-size: medium;
+}
+.notificationBarContainer {
+  text-decoration: none !important;
+}
